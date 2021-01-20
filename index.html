@@ -9,6 +9,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- CSS Pessoal -->
   <link rel="stylesheet" href="files/css/style.css">
   <title>Nescau | Energia para viver ;)</title>
@@ -16,7 +17,7 @@
 
 <body>
   <!-- menu -->
-  <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bag-blue ">
+  <nav class="navbar fixed-bottom navbar-expand-xl p-0 pt-2 pl-2 navbar-dark bag-blue ">
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
       aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
@@ -26,19 +27,23 @@
     <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#inicio">Home <span class="sr-only">(página atual)</span></a>
+          <a class="nav-link" href="#inicio"><button type="button" class="btn btn-outline-primary">Home</button><span
+              class="sr-only">(página atual)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#nos">Sobre nós</a>
+          <a class="nav-link" href="#nos"><button type="button" class="btn btn-outline-primary">Sobre nós</button></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#topodendo">Tá podendo Nestle</a>
+          <a class="nav-link" href="#topodendo"><button type="button" class="btn btn-outline-primary">Tá podendo
+              Nestle</button></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#outrosprodutos">Outros Produtos</a>
+          <a class="nav-link" href="#outrosprodutos"><button type="button" class="btn btn-outline-primary">Outros
+              produtos</button></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#cadastrese">Cadastre-se</a>
+          <a class="nav-link" href="#cadastrese"><button type="button"
+              class="btn btn-outline-primary">Cadastre-se</button></a>
         </li>
       </ul>
       <a class="navbar-brand text-right" href="https://www.nestle.com.br/" target="_blanck"><img class="w-25"
@@ -47,183 +52,200 @@
   </nav>
   <!-- /menu -->
 
-  <!-- seção inicial -->
-  <div class="container-fluid d-flex flex-column bag-red justify-content-sm-around">
-    <div class="text-center">
-      <img class="img-fluid" src="files/img/nescau.png" alt="">
-    </div>
-    <div class="text-center">
-      <img class="img-fluid" src="files/img/img2.jpg" alt="">
-    </div>
-  </div>
-  <!-- /seção inicial -->
-
-  <!-- jumbotron1 -->
-  <div class="jumbotron bag-blue" id="inicio">
-    <h1 class="display-4 text-center co-whi pb-xl-2">HEY, CHEGOU O SEU MOMENTO!</h1>
-    <p class="lead co-whi">Já pensou em ganhar pontos que você pode trocar por produtos Nestle e ainda concorrer
-      diariamente a prêmios de até R$100.000?
-    </p>
-    <hr class="my-4">
-    <p class="co-whi pb-xl-3">Chegou a hora! Além de tudo isso ocorreram sorteios mensais de R$1.000.000. Eaí, o que vai
-      fazer com a bolada?</p>
-    <a class="btn btn-primary btn-lg " href="#cadastre" role="button">Cadastre-se já</a>
-  </div>
-  <!-- /jumbotron1 -->
-
-<!-- carousel -->
-  <div class="jumbotron bag-blue">
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" height="300px" src="files/img/nescau2.jpg" alt="Primeiro Slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" height="300px" src="files/img/nescau1.jpg" alt="Segundo Slide">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Próximo</span>
-      </a>
-    </div>
-  </div>
-  <!-- /carosel -->
-
-  <!-- jumbotron2 -->
-  <div class="jumbotron bag-blue" id="nos">
-    <h1 class="display-4 text-center co-whi pb-xl-2">SOBRE A NESTLE</h1>
-    <p class="lead co-whi">Nossa história começa em 1866, quando a Anglo-Swiss Condensed Milk Company abre a primeira
-      fábrica de leite condensado da Europa na Suíça. Henri Nestlé desenvolve um alimento infantil revolucionário em
-      1867, e em 1905 a empresa criada por ele se funde com a Anglo-Swiss para formar o que hoje é conhecido como Grupo
-      Nestlé. Durante esse período de crescimento das cidades, aumento das estradas de ferro e dos navios a vapor,
-      ocorre uma redução nos custos das commodities, o que estimula o comércio internacional de bens de consumo.
-    </p>
-    <h1 class="pl-1 co-whi">1904</h1>
-    <img class="img-fluid" src="files/img/1878_0.jpg" alt="">
-    <p class="lead co-whi p-1 m-sm-1">A Nestlé começa a vender chocolate pela primeira vez, ao assumir os negócios de
-      exportação de Peter & Kohler. O próprio Henri Nestlé tem um papel-chave no desenvolvimento do chocolate ao leite a
-      partir de 1875 ao fornecer leite condensado para seu vizinho em Vevey, Daniel Peter, que o utiliza no
-      desenvolvimento de seu primeiro produto comercial na década de 1880.</p>
-  </div>
-  <!-- /jumbotron2 -->
-
-  <!-- jumbotron3 -->
-  <div class="jumbotron bag-blue" id="topodendo">
-    <h1 class="display-4 text-center co-whi pb-xl-2">PROMOÇÃO TO PODENDO NESTLE</h1>
-    <p class="lead co-whi">Já pensou em ganhar pontos que você pode trocar por produtos Nestle e ainda concorrer
-      diariamente a prêmios de até R$100.000?
-    </p>
-    <hr class="my-4">
-    <div class="text-center container">
-      <iframe class="embed-responsive" width="560" height="315" src="https://www.youtube.com/embed/mUnESm2j3M0"
-        frameborder="0" allowfullscreen></iframe>
-    </div>
-    <br><br>
-    <a class="btn btn-primary btn-lg text-left" href="#cadastrese" role="button">Cadastre-se já</a>
-  </div>
-  <!-- /jumbotron3 -->
-  <hr>
-
-  <!--Card-->
-  <div class="jumbotron bag-blue" id="outrosprodutos">
-    <h1 class="display-4 text-center co-whi pb-xl-4">OUTRAS MARCAS</h1>
-    <div class="container">
-      <div class="container row justify-content-between text-center">
-
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="files/img/moca-leite-condensado.png"
-            alt="Logo Nestle leite condensado moça com link para visitar o site Nestle">
-          <div class="card-body">
-            <h5 class="card-title">Visite nosso Site</h5>
-            <p class="card-text">Site da Nestle com nossos outros produtos</p>
-            <a href="https://www.nestle.com.br/marcas/moca/moca-leite-condensado" target="_blank"
-              class="btn btn-primary">Visitar</a>
-          </div>
-        </div>
-
-        <div class="card p-3" style="width: 18rem;">
-          <img class="card-img-top" src="files/img/carousel3.png" alt="Logo Nestle com link para visitar o site Nestle">
-          <div class="card-body">
-            <h5 class="card-title">Visite nosso Site</h5>
-            <p class="card-text">Site da Nestle com nossos outros produtos</p>
-            <a href="https://www.nestle.com.br/" target="_blank" class="btn btn-primary">Visitar</a>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="files/img/classic-diet-chocolate.png"
-            alt="Logo Nestle chocolate Classic  com link para visitar o site Nestle">
-          <div class="card-body">
-            <h5 class="card-title">Visite nosso Site</h5>
-            <p class="card-text">Site da Nestle com nossos outros produtos</p>
-            <a href="https://www.nestle.com.br/marcas/classic/classic-diet-chocolate" target="_blank"
-              class="btn btn-primary">Visitar</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <!-- /Card -->
-
-  <!-- Cadastre-se -->
-  <div class="jumbotron bag-blue co-whi mb-0" id="cadastrese">
-    <h1 class="display-4 text-center co-whi pb-xl-4">CADASTRE-SE NA PROMOÇÃO</h1>
-    <form>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Nome</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Nome">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Telefone</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Telefone">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Endereço de email</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-          placeholder="Seu email">
-        <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
-      </div>
-      <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Receber promoções via email</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
-  </div>
-  <!-- /Cadastre-se -->
-
-
-  <!-- footer  -->
-
-
-  <div class="container-fluid p-0 bag-whi justify-content-between">
-    <div class="text-left align-items-center p-3 container row justify-content-around">
-
-      <div> © 2020 Sem direitos reservados 😝
-      </div>
-
+  <div class="container-fluid">
+    <!-- seção inicial -->
+    <div class="container d-flex flex-column bag-red justify-content-sm-around">
       <div class="text-center">
-        <h2 class="config text-dark display-4">Siga-nos nas redes:</h2>
-        <a href="https://www.facebook.com/Nestle.Brasil/" target="_blanck"><img class="img-car p-1"
-            src="files/img/facebook.png" alt=""></a>
-        <a href="https://www.instagram.com/nestle_br/?hl=pt-br" target="_blanck"><img class="img-car p-1"
-            src="files/img/instagram.png" alt=""></a>
-        <a href="https://www.linkedin.com/company/nestle-s-a-/?originalSubdomain=br" target="_blanck"><img
-            class="img-car p-1" src="files/img/linkedin.png" alt=""></a>
+        <img class="img-fluid" src="files/img/nescau.png" alt="">
+      </div>
+      <div class="text-center">
+        <img class="img-fluid" src="files/img/img2.jpg" alt="">
+      </div>
+    </div>
+    <!-- /seção inicial -->
+
+    <!-- jumbotron1 -->
+    <div class="jumbotron bag-blue" id="inicio">
+      <h1 class="display-flex text-center co-whi pb-xl-2 font-weight-bold">HEY, CHEGOU O SEU MOMENTO!</h1>
+      <p class="lead co-whi">Já pensou em ganhar pontos que você pode trocar por produtos Nestle e ainda concorrer
+        diariamente a prêmios de até R$100.000?
+      </p>
+      <hr class="my-4">
+      <p class="co-whi pb-xl-3">Chegou a hora! Além de tudo isso ocorreram sorteios mensais de R$1.000.000. Eaí, o que
+        vai fazer com a bolada?</p>
+      <a class="btn btn-primary btn-lg " href="#cadastrese" role="button">Cadastre-se já</a>
+    </div>
+    <!-- /jumbotron1 -->
+
+    <!-- carousel -->
+    <div class="jumbotron bag-blue">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" height="200px" src="files/img/nescau1.jpg" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" height="200px" src="files/img/nescau2.jpg" alt="Segundo Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+    <!-- /carosel -->
+
+    <!-- jumbotron2 -->
+    <div class="jumbotron bag-blue" id="nos">
+      <h1 class="display-flex text-center co-whi pb-xl-2 font-weight-bold">SOBRE A NESTLE</h1>
+      <p class="lead co-whi">Nossa história começa em 1866, quando a Anglo-Swiss Condensed Milk Company abre a primeira
+        fábrica de leite condensado da Europa na Suíça. Henri Nestlé desenvolve um alimento infantil revolucionário em
+        1867, e em 1905 a empresa criada por ele se funde com a Anglo-Swiss para formar o que hoje é conhecido como
+        Grupo
+        Nestlé. Durante esse período de crescimento das cidades, aumento das estradas de ferro e dos navios a vapor,
+        ocorre uma redução nos custos das commodities, o que estimula o comércio internacional de bens de consumo.
+      </p>
+      <h1 class="pl-1 co-whi">1904</h1>
+      <img class="img-fluid" src="files/img/1878_0.jpg" alt="">
+      <p class="lead co-whi p-1 m-sm-1">A Nestlé começa a vender chocolate pela primeira vez, ao assumir os negócios de
+        exportação de Peter & Kohler. O próprio Henri Nestlé tem um papel-chave no desenvolvimento do chocolate ao leite
+        a
+        partir de 1875 ao fornecer leite condensado para seu vizinho em Vevey, Daniel Peter, que o utiliza no
+        desenvolvimento de seu primeiro produto comercial na década de 1880.</p>
+    </div>
+    <!-- /jumbotron2 -->
+
+    <!-- jumbotron3 -->
+    <div class="jumbotron bag-blue" id="topodendo">
+      <h1 class="display-flex text-center co-whi pb-xl-2 font-weight-bold">PROMOÇÃO TO PODENDO NESTLE</h1>
+      <p class="lead co-whi">Já pensou em ganhar pontos que você pode trocar por produtos Nestle e ainda concorrer
+        diariamente a prêmios de até R$100.000?
+      </p>
+      <hr class="my-4">
+      <div class="text-center container">
+        <iframe id="video" class="embed-responsive" height="500px" width="500px"
+          src="https://www.youtube.com/embed/mUnESm2j3M0" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <br><br>
+      <a class="btn btn-primary btn-lg text-left" href="#cadastrese" role="button">Cadastre-se já</a>
+    </div>
+    <!-- /jumbotron3 -->
+
+    <!--Card-->
+    <div class="jumbotron bag-blue" id="outrosprodutos">
+      <h1 class="display-flex text-center co-whi pb-xl-4 font-weight-bold">OUTRAS MARCAS</h1>
+      <div class="container">
+
+        <div class="d-flex flex-wrap justify-content-between text-center">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="files/img/moca-leite-condensado.png"
+              alt="Logo Nestle leite condensado moça com link para visitar o site Nestle">
+            <div class="card-body">
+              <h5 class="card-title">Visite nosso Site</h5>
+              <p class="card-text">Site da Nestle com nossos outros produtos</p>
+              <a href="https://www.nestle.com.br/marcas/moca/moca-leite-condensado" target="_blank"
+                class="btn btn-primary">Visitar</a>
+            </div>
+          </div>
+
+          <div class="card p-3" style="width: 18rem;">
+            <img class="card-img-top" src="files/img/carousel3.png"
+              alt="Logo Nestle com link para visitar o site Nestle">
+            <div class="card-body">
+              <h5 class="card-title">Visite nosso Site</h5>
+              <p class="card-text">Site da Nestle com nossos outros produtos</p>
+              <a href="https://www.nestle.com.br/" target="_blank" class="btn btn-primary">Visitar</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="files/img/classic-diet-chocolate.png"
+              alt="Logo Nestle chocolate Classic  com link para visitar o site Nestle">
+            <div class="card-body">
+              <h5 class="card-title">Visite nosso Site</h5>
+              <p class="card-text">Site da Nestle com nossos outros produtos</p>
+              <a href="https://www.nestle.com.br/marcas/classic/classic-diet-chocolate" target="_blank"
+                class="btn btn-primary">Visitar</a>
+            </div>
+          </div>
+        </div>
+
+
       </div>
 
     </div>
+    <!-- /Card -->
+
+    <!-- Cadastre-se -->
+    <div class="jumbotron bag-blue co-whi mb-0" id="cadastrese">
+      <h1 class="display-flex text-center co-whi pb-xl-4 font-weight-bold">CADASTRE-SE NA PROMOÇÃO</h1>
+      <form>
+
+        <div class="form-group">
+          <label for="exampleInputPassword1">Nome</label>
+          <input type="text" class="form-control" id="nome" placeholder="Nome">
+          <div id='validaNome'></div>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputEmail1">Endereço de email</label>
+          <input type="email" class="form-control" id="email" placeholder="Seu email">
+          <div id=validaEmail></div>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputPassword1">Telefone</label>
+          <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+          <div id="validaTelefone"></div>
+        </div>
+
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Receber promoções via email</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary" onclick="validaCampos()">Enviar</button>
+
+      </form>
+    </div>
+    <!-- /Cadastre-se -->
+
+
+    <!-- footer  -->
+    <div class="container-fluid p-0 bag-whi justify-content-between">
+      <div class="d-flex align-items-center p-3 justify-content-around">
+        <div class="text-center">
+          <h2 class="config text-dark display-flex">Siga-nos nas redes:</h2>
+          <ul class="social-networking">
+            <li><a href="https://www.facebook.com/Nestle.Brasil/" target="_black" class="ico-facebook"><i
+                  class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/nestle_br/?hl=pt-br" target="_black" class="ico-insta"><i
+                  class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/nestle-s-a-/?originalSubdomain=br" target="_black"
+                class="ico-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <hr class="p-0 m-0 bag-blue">
+    <div class="bag-whi p-2 pb-4 d-flex justify-content-center font-weight-bold">
+      ©Copyright 2020: sem direitos reservados 😝
+    </div>
   </div>
+
+
+
   <!-- /footer -->
 
   <!-- JavaScript (Opcional) -->
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="files/javascript/js.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
